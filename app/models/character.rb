@@ -1,3 +1,3 @@
 class Character < ActiveRecord::Base
-  blongs_to :show
+  belongs_to :show
 end
